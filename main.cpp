@@ -3,6 +3,14 @@
 #include <iostream>
 #include <vector>
 
+/*
+I realize that most of what I did for the included files was probably extra, and unnecessary.
+The only reason I did any of it was because I tried to teach myself a lot of C++ over break,
+so I mainly used this assignment as an excuse to test some of that knowledge.
+
+All of the 'extra' stuff I used (classes, exceptions, etc.) I learned from learncpp.com over break.
+*/
+
 int main() {
     // runs tests that are pre-written in the Freestyle file
     Freestyle::run_tests();
@@ -28,4 +36,6 @@ int main() {
         }
         std::cout << "FAIL" << std::endl;
     }
+
+    return 0;
 }
