@@ -9,6 +9,7 @@ Fraction::Fraction(int n, int d)
         throw std::runtime_error("Denominator can't be zero");
     }
 
+    // decided to go with no negatives for simplicity.
     if (num < 0) num *= -1;
     if (den < 0) den *= -1;
 }

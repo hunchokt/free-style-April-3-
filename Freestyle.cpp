@@ -25,7 +25,7 @@ namespace Freestyle {
         From my understanding:
         - powers of two will only ever have a single '1' in binary form (e.g., 2 = 0010, 16 = 10000)
         - all predecessors of powers of two flip all bits after the 1 (and then the 1 goes to 0)
-        - running bitwise AND both will leave no overlapping 1's (therefore returning 0000, aka 0, aka false)
+        - running bitwise AND both will leave no overlapping 1's (therefore returning 0000)
         */
 
         if (num <= 0) throw std::runtime_error("Negatives and zeros are invalid.");
