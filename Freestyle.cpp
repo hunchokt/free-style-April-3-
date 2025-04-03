@@ -2,8 +2,6 @@
 #include <iostream>
 #include <cassert>
 
-// got bored, so I decided to test exception throwing since I haven't really done it much w/ C++.
-
 namespace Freestyle {
     bool pow_of_two_loop( int num ) {
         if (num <= 0) throw std::runtime_error("Negatives and zeros are invalid.");
